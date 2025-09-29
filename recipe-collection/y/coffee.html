@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Coffee || Simply Recipes</title>
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo"><img src="./assets/logo.svg" alt="simply recipes"/></a>
+        <button class="nav-btn btn"><i class="fas fa-align-justify"></i></button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+        <div class="nav-link contact-link"><a href="contact.html" class="btn"> contact </a></div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/recipe-2.jpeg" class="img recipe-hero-img"/>
+        <article class="recipe-info">
+          <h2>Hot Coffee</h2>
+          <p>
+            Hot Coffee is a classic beverage loved worldwide. Rich, aromatic, and energizing, it’s perfect for mornings, evenings, or anytime you need a warm boost.
+          </p>
+          <div class="recipe-icons">
+            <article><i class="fas fa-clock"></i><h5>prep time</h5><p>15 min</p></article>
+            <article><i class="far fa-clock"></i><h5>cook time</h5><p>5 min</p></article>
+            <article><i class="fas fa-user-friends"></i><h5>serving</h5><p>2 servings</p></article>
+          </div>
+          <p class="recipe-tags">Tags : <a href="tag-template.html">Menu</a></p>
+        </article>
+      </section>
+
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <div class="single-instruction"><header><p>step 1</p><div></div></header><p>Boil milk in a saucepan until hot.</p></div>
+          <div class="single-instruction"><header><p>step 2</p><div></div></header><p>Add coffee powder and sugar to taste. Stir well.</p></div>
+          <div class="single-instruction"><header><p>step 3</p><div></div></header><p>Pour into cups, froth lightly, and serve hot.</p></div>
+        </article>
+
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredient">2 cups milk</p>
+            <p class="single-ingredient">2 tsp instant coffee powder</p>
+            <p class="single-ingredient">2 tsp sugar (adjust to taste)</p>
+          </div>
+          <div>
+            <h4>tools</h4>
+            <p class="single-tool">Saucepan</p>
+            <p class="single-tool">Whisk or spoon</p>
+            <p class="single-tool">Measuring Cups</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <p>&copy; <span id="date"></span> <span class="footer-logo">SimplyRecipes</span> Built by <a href="https://www.maneeshaveeramreddy123.com/">Recipe team</a></p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+</html>
